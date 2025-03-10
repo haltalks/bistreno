@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import React from 'react';
 // javascript library that creates a parrallax effect
 import Rellax from 'rellax';
@@ -9,10 +10,10 @@ import PresentationHeader from 'components/Headers/PresentationHeader.js';
 import FooterBlack from 'components/Footers/FooterBlack.js';
 
 // sections for this page
-import Components from './presentation-sections/Components.js';
+// import Components from './presentation-sections/Components.js';
 import Projects from './presentation-sections/Projects.js';
 import BasicComponents from './presentation-sections/BasicComponents.js';
-import Sections from './presentation-sections/Sections.js';
+// import Sections from './presentation-sections/Sections.js';
 
 function Presentation() {
 	React.useEffect(() => {
