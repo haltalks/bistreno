@@ -10,6 +10,7 @@ import FooterBlack from 'components/Footers/FooterBlack.js';
 
 // sections for this page
 import Components from './presentation-sections/Components.js';
+import Projects from './presentation-sections/Projects.js';
 import BasicComponents from './presentation-sections/BasicComponents.js';
 import Sections from './presentation-sections/Sections.js';
 
@@ -51,9 +52,10 @@ function Presentation() {
 			<ScrollTransparentNavbar />
 			<div className='wrapper'>
 				<PresentationHeader />
-				<Components />
 				<BasicComponents />
-				<Sections />
+				<Projects />
+				{/* <Components /> */}
+				{/* <Sections /> */}
 				<FooterBlack />
 			</div>
 		</>

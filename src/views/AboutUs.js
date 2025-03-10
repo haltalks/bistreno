@@ -40,9 +40,12 @@ function AboutUs() {
 								<Col className='ml-auto mr-auto text-center' md='8'>
 									<h2 className='title'>Who We Are?</h2>
 									<h4 className='description'>
-										This is the paragraph where you can write more details about
-										your projects. Keep you user engaged by providing meaningful
-										information.
+										Our company is built on the foundation of a highly skilled
+										and dedicated team of renovation professionals. We bring a
+										wealth of expertise to every project, ensuring top-quality
+										craftsmanship and attention to detail. From initial design
+										to final touches, we're committed to delivering exceptional
+										renovations that enhance your home or business.
 									</h4>
 									<div className='section-space'></div>
 								</Col>
@@ -56,12 +59,10 @@ function AboutUs() {
 												'url(' + require('assets/img/img/kitchen3.jpg') + ')',
 										}}>
 										<CardBody>
-											<CardTitle tag='h2'>Social Analytics</CardTitle>
+											<CardTitle tag='h2'>Dream Kitchens Realized</CardTitle>
 											<p className='card-description'>
-												Insight to help you create, connect, and convert.
-												Understand Your Audience's Interests, Influence,
-												Interactions, and Intent. Discover emerging topics and
-												influencers to reach new audiences.
+												Expert renovation to transform your kitchen into a
+												functional and beautiful space.
 											</p>
 											<Badge className='badge-neutral'>Analytics</Badge>
 										</CardBody>
@@ -73,12 +74,10 @@ function AboutUs() {
 											<i className='now-ui-icons ui-2_chat-round'></i>
 										</div>
 										<div className='description'>
-											<h4 className='info-title'>
-												Listen to Social Conversations
-											</h4>
+											<h4 className='info-title'>Personalized Consultations</h4>
 											<p className='description'>
-												Gain access to the demographics, psychographics, and
-												location of unique people who talk about your brand.
+												We listen to your needs and preferences, offering
+												tailored solutions for your renovation project.
 											</p>
 										</div>
 									</div>
@@ -87,11 +86,12 @@ function AboutUs() {
 											<i className='now-ui-icons business_chart-pie-36'></i>
 										</div>
 										<div className='description'>
-											<h4 className='info-title'>Performance Analyze</h4>
+											<h4 className='info-title'>
+												Project Planning & Management
+											</h4>
 											<p className='description'>
-												Unify data from Facebook, Instagram, Twitter, LinkedIn,
-												and Youtube to gain rich insights from easy-to-use
-												reports.
+												We handle every aspect of your renovation, ensuring a
+												smooth and efficient process.
 											</p>
 										</div>
 									</div>
@@ -100,72 +100,13 @@ function AboutUs() {
 											<i className='now-ui-icons design-2_ruler-pencil'></i>
 										</div>
 										<div className='description'>
-											<h4 className='info-title'>Social Conversions</h4>
+											<h4 className='info-title'>Quality Craftsmanship</h4>
 											<p className='description'>
-												Track actions taken on your website that originated from
-												social, and understand the impact on your bottom line.
+												Our experienced team delivers exceptional results with
+												attention to detail and superior materials.
 											</p>
 										</div>
 									</div>
-								</Col>
-							</Row>
-							<hr></hr>
-							<Row>
-								<Col className='ml-auto mt-5' md='5'>
-									<div className='info info-horizontal'>
-										<div className='icon icon-warning'>
-											<i className='now-ui-icons users_single-02'></i>
-										</div>
-										<div className='description'>
-											<h4 className='info-title'>Work With Any Team</h4>
-											<p className='description'>
-												Whether it’s for work or even the next family vacation,
-												Trello helps your team.
-											</p>
-										</div>
-									</div>
-									<div className='info info-horizontal'>
-										<div className='icon icon-warning'>
-											<i className='now-ui-icons business_chart-bar-32'></i>
-										</div>
-										<div className='description'>
-											<h4 className='info-title'>A Productivity Platform</h4>
-											<p className='description'>
-												Integrate the apps your team already uses directly into
-												your workflow.
-											</p>
-										</div>
-									</div>
-									<div className='info info-horizontal'>
-										<div className='icon icon-warning'>
-											<i className='now-ui-icons arrows-1_refresh-69'></i>
-										</div>
-										<div className='description'>
-											<h4 className='info-title'>Always In Sync</h4>
-											<p className='description'>
-												No matter where you are, Trello stays in sync across all
-												of your devices.
-											</p>
-										</div>
-									</div>
-								</Col>
-								<Col className='mr-auto' md='5'>
-									<Card
-										className='card-background card-background-product card-raised'
-										style={{
-											backgroundImage:
-												'url(' + require('assets/img/img/kitchen1.jpg') + ')',
-										}}>
-										<CardBody>
-											<CardTitle tag='h2'>Trello lets you work.</CardTitle>
-											<p className='card-description text-white'>
-												Trello’s boards, lists, and cards enable you to organize
-												and prioritize your projects in a fun, flexible and
-												rewarding way.
-											</p>
-											<Badge className='badge-neutral'>Trello</Badge>
-										</CardBody>
-									</Card>
 								</Col>
 							</Row>
 						</Container>
@@ -175,12 +116,12 @@ function AboutUs() {
 						<Container>
 							<Row className='text-center'>
 								<Col className='ml-auto mr-auto' md='8'>
-									<h2 className='title'>Our People</h2>
-									<h4 className='description'>
+									<h2 className='title'>Our Work</h2>
+									{/* <h4 className='description'>
 										Here are some pictures from our office. You can see the
 										place looks like a palace and is fully equiped with
 										everything you need to get the job done.
-									</h4>
+									</h4> */}
 								</Col>
 							</Row>
 							<Row>

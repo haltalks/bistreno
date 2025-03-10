@@ -13,6 +13,9 @@ import 'index.css';
 import AboutUs from 'views/AboutUs.js';
 import ContactUs from 'views/ContactUs.js';
 import Presentation from 'views/Presentation.js';
+import ProjectOne from 'views/Projects/One.js';
+import ProjectTwo from 'views/Projects/Two.js';
+import ProjectThree from 'views/Projects/Three.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -22,6 +25,9 @@ root.render(
 			<Route path='/about' element={<AboutUs />} />
 			<Route path='/contact' element={<ContactUs />} />
 			<Route path='/' element={<Presentation />} />
+			<Route path='/projectone' element={<ProjectOne />} />
+			<Route path='/projecttwo' element={<ProjectTwo />} />
+			<Route path='/projectthree' element={<ProjectThree />} />
 			<Route path='*' element={<Navigate to='/' replace />} />
 		</Routes>
 	</BrowserRouter>

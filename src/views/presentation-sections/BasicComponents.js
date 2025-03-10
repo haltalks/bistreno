@@ -12,12 +12,12 @@ function BasicComponents() {
 				<Container>
 					<Row>
 						<Col className='ml-auto mr-auto' lg='5' md='7'>
-							<h2 className='title'>We pay attention to details</h2>
+							<h3 className='title'>We Pay Attention to Details</h3>
 							<h6 className='category'>Our work is trusted by our clients</h6>
 							<h5 className='description'>
-								From base boards to drywalls and demolishing and renovation we
-								do everything with years of,From base boards to drywalls and
-								demolishing and renovation we do everything with years of
+								Detail-oriented and trusted by clients, we offer comprehensive
+								construction services. From baseboards to drywall, demolition to
+								renovation, our experience ensures quality in every project.
 							</h5>
 						</Col>
 						<Col lg='6' md='12'>

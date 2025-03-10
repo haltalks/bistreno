@@ -65,7 +65,7 @@ function ScrollTransparentNavbar() {
 						{/* <h2>BistReno</h2> */}
 					</NavbarBrand>
 					<UncontrolledTooltip target='navbar-brand'>
-						Designed by Invision. Coded by Creative Tim
+						Designed Farbod
 					</UncontrolledTooltip>
 					<button
 						onClick={() => {

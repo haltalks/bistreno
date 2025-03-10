@@ -32,7 +32,7 @@ function ContactUs() {
 								<Col className='ml-auto mr-auto' md='5'>
 									<h2 className='title'>Send us a message</h2>
 									<p className='description'>
-										You can contact us with anything related to our Products.
+										You can contact us with anything related to our Services.
 										We'll get in touch with you as soon as possible. <br></br>
 										<br></br>
 									</p>
@@ -44,11 +44,7 @@ function ContactUs() {
 										</div>
 										<div className='description'>
 											<h4 className='info-title'>Find us at the office</h4>
-											<p>
-												Bld Mihail Kogalniceanu, nr. 8, <br></br>
-												7652 Bucharest, <br></br>
-												Romania
-											</p>
+											<p>Calgary</p>
 										</div>
 									</div>
 									<div className='info info-horizontal'>
@@ -57,11 +53,7 @@ function ContactUs() {
 										</div>
 										<div className='description'>
 											<h4 className='info-title'>Give us a ring</h4>
-											<p>
-												Michael Jordan <br></br>
-												+40 762 321 762 <br></br>
-												Mon - Fri, 8:00-22:00
-											</p>
+											<p>Phone</p>
 										</div>
 									</div>
 									<div className='info info-horizontal'>
@@ -69,13 +61,8 @@ function ContactUs() {
 											<i className='business_briefcase-24 now-ui-icons'></i>
 										</div>
 										<div className='description'>
-											<h4 className='info-title'>Legal Information</h4>
-											<p>
-												Creative Tim Ltd. <br></br>
-												VAT · EN2341241 <br></br>
-												IBAN · EN8732ENGB2300099123 <br></br>
-												Bank · Great Britain Bank
-											</p>
+											<h4 className='info-title'>Email</h4>
+											<p>Email</p>
 										</div>
 									</div>
 								</Col>

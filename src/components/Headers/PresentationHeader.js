@@ -34,7 +34,7 @@ function PresentationHeader() {
 					{/* <div className='pro'>PRO</div> */}
 				</div>
 				<h2 className='h3-description rellax-text' data-rellax-speed='-1'>
-					Best Renovation in the Market
+					Complete Construction Solution
 				</h2>
 			</div>
 		</>
